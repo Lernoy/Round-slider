@@ -11,7 +11,6 @@
     height: 100%;
     object-fit: contain;
 }
-
 .le_carousel {
     position: relative;
     width: 548px;
@@ -137,8 +136,6 @@
 .le_thumb p.active {
     opacity: 1;
 }
-
-
 @media (max-width: 575px) {
     .le_carousel>*:not(.le_item_1):not(.le_control):not(.le_thumb):not(.le_item_2):not(.le_item_8) {
         opacity: 0 !important;
@@ -146,28 +143,23 @@
         top: 0;
         transform: scale(0.6);
     }
-
     .le_carousel .le_item_1,
     .le_carousel .le_item_2,
     .le_carousel .le_item_8 {
         top: 0;
     }
-
     .le_carousel .le_item_2,
     .le_carousel .le_item_8 {
         opacity: 0.4;
         transform: scale(0.8);
     }
-
     .le_carousel {
         height: 210px;
     }
-
     .le_carousel .le_item_8 {
         left: 15px;
     }
-
-    .le_carousel .le_item_2 {
+   .le_carousel .le_item_2 {
         right: 15px;
     }
 }
